@@ -1,4 +1,4 @@
-let listaDeNumerosSorteados = []; //lista para salvar os números sorteados
+let listaDeNumerosSorteados = []; //lista para salvar os números sorteados pela função
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
