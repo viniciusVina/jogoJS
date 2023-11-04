@@ -16,7 +16,7 @@ function exibirMensagemInicial() {
 }
 
 exibirMensagemInicial();
-
+//verifica o chute do user, 
 function verificarChute() {
     let chute = document.querySelector('input').value; //recuera o valor do input
     
