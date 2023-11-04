@@ -36,7 +36,7 @@ function verificarChute() {
         limparCampo();
     }
 }
-//gerar numeros aleatorios
+//gerar numeros aleatorios sem repetir os numeros anteriores 
 function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
